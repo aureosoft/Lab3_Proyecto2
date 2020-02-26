@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<!-- html:  -->
+<html LANG="ES">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <style>
+            h1{
+                display: inline-block;
+                font-size: 40px;
+                text-align: left;
+                margin-left: 50px;
+                 color: #f9aa33;
+            }
+            h2{
+                text-align: center;
+                font-size: 30px;
+                margin-bottom: 50px;
+                color: #232f34;
+            }
+            .wrapper{
+                background : #81ecec;
+                font-family: 'Roboto', sans-serif;
+            }
+            .container{
+                display: block;
+                margin: 0 auto;
+                background: #fff;
+                width: 80%;
+                text-align: center;
+                padding: 10px;
+            }
+            .pdfContainer{
+                display: block;
+                margin: 0 auto;
+                background: #fff;
+                width: 100%;
+                text-align: center;
+                padding: 10px;
+                height: 80%;
+            }
+            .btnContainer{
+                display: block;
+                margin: 0 auto;
+                background: #fff;
+                width: 100%;
+                text-align: center;
+                padding: 10px;
+                height: 5%;
+            }
+            a{
+                text-align: right;
+                text-decoration: none;
+                padding: 10px;
+                background: #f9aa33;
+                color: #344955;
+                font-size: 22px;
+                display: inline-block;
+                margin-left: 10px;
+            }
+            
+            a:hover{
+                background: #ffbe76;
+                cursor: pointer;
+                transition: all 300ms ease;
+}                              
+            p{
+                font-size: 22px;
+                color: #344955;
+                text-align: left;
+            }
+            span{
+                color: #344955;
+            }
+            iframe{
+                display: block;
+                width : 40%;
+                height :80%;
+            }
+        </style>
+    </head>
+    <body>
+      <div class="container">
+        <h1>Factura</h1>
+        <h2><i>Servicios contratados</i></h2>        
+        <p>Saludos ${nombre cliente}. Le agradecemos por escoger utilizar los servicios de nombre plataforma</p>
+        <p>Se ha generado factura por servicios ${tipo servcios}</p>
+        <p>Evento en fecha ${fecha} a las ${hora}</p>
+        <div class="pdfContainer">    
+             
+            <iframe src="C:/Users/Evese/Documents/Proyecto%202/areaTecnica/CreacionPDF_HTML/service-template-es.pdf" ></iframe>
+            
+        </div>
+        <div class="btnContainer">
+            <a href="C:/Users/Evese/Documents/Proyecto%202/areaTecnica/CreacionPDF_HTML/service-template-es.pdf">Descargar factura</a>   
+        </div>   
+       
+ 
+      </div>      
+    </body>    
+  </html>`
