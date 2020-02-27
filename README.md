@@ -21,7 +21,8 @@ Dentro de la carpeta crearemos otra carpeta con el nombre de `js`, en la misma p
 <!Doctype html>
 <html>
     <head>
-	<title>Nombre de p&aacute;gina</title>
+	<meta charset="utf-8">
+	<title>Título de la página</title>
     </head>
     <body>
         
@@ -34,7 +35,8 @@ Seguidamente creamos dentro del `body` un elemento `div` como el siguiente: `id=
 <!Doctype html>
 <html>
     <head>
-	<title>Nombre de p&aacute;gina</title>
+	<meta charset="utf-8">
+	<title>Título de la página</title>
     </head>
     <body>
         <div id="HTMLtoPDF">
@@ -83,9 +85,9 @@ Explicación y demostración gráfica del proceso necesario para implementar la 
 
 Enlaces necesarios para la realización del ejercicio:
 
-[1- Twilio - web oficial](https://www.twilio.com/)
+[1- Twilio - web oficial](https://www.twilio.com/ "Twilio - web oficial")
 
-[2- SMS en Twilio](https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms)
+[2- SMS en Twilio](https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms "SMS en Twilio")
 
 
 Esta sección del documento explica cómo enviar un `Short Message Service (SMS)` usando `Microsoft Visual Studio` y 
@@ -100,10 +102,9 @@ Funciona con el sistema pay-as-you-go, el cuál va a realizar un cobro cada vez 
 
 
 ### Pasos:
-1 - Registrarse en [Twilio](https://www.twilio.com/),
-2 - Crear un `Console App(.net)` en visual studio.
-
-3 - Colocar el siguiente código en el main, para probar su funcionalidad: 
+* [1 - Registrarse en [Twilio](https://www.twilio.com/ "Twilio") ]
+* [2 - Crear un `Console App(.net)` en `Visual Studio`.]
+* [3 - Colocar el siguiente código en el método `main`, para probar su funcionalidad:] 
 ```cs
             // Use your account SID and authentication token instead
             // of the placeholders shown here.
@@ -127,10 +128,9 @@ Funciona con el sistema pay-as-you-go, el cuál va a realizar un cobro cada vez 
                 Console.WriteLine(ex.Message);
             }
 ```
-
-4 -  Descargar desde el `Manage Nugets` el paquete de `Twilio` e instalarlo. 
-5 -  Se referencia el Api de Twilio desde el Main.
-6 -  Se ejecuta el programa.
+* [4 -  Descargar desde el `Manage Nugets` el paquete de `Twilio` e instalarlo.]
+* [5 -  Se referencia el Api de Twilio desde el Main.]
+* [6 -  Se ejecuta el programa.]
 
 Para más información visite el siguiente link que lo redireccionará al video de youtube que contiene la explicación 
 y demostración gráfica del proceso necesario para implementar la funcionalidad:
