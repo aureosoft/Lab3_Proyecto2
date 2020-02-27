@@ -70,7 +70,14 @@ function HTMLtoPDF(){
 ```
 
 Explicación y demostración gráfica del proceso necesario para implementar la funcionalidad:
-[![Cómo generar un archivo PDF desde HTML](https://img.youtube.com/vi/RzVcKMVioSg/0.jpg)](https://www.youtube.com/watch?v=RzVcKMVioSg)
+<div align="center">
+      <a target="_blank" href="https://www.youtube.com/watch?v=RzVcKMVioSg">
+     <img 
+      src="https://img.youtube.com/vi/RzVcKMVioSg/0.jpg" 
+      alt="Cómo generar un archivo PDF desde HTML" 
+      style="width:100%;">
+      </a>
+</div>
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
