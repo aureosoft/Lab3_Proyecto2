@@ -96,9 +96,9 @@ el `Aplication Program Interface (API)` de Twilio.
 ### ¿Qué es Twilio?
 
 Es una aplicación que permite a los desarrolladores , añadir voz y mensajes en aplicaciones.
-Virtualizan toda la infraestructura necesaria en una nube, la cual puede ser usada atravez del Twilio communications API platform.
-Las aplicaciones son simples de construir y a su vez, escalables.
-Funciona con el sistema pay-as-you-go, el cuál va a realizar un cobro cada vez que se realice una accion.
+Virtualizan toda la infraestructura necesaria en una nube, la cuál, puede ser usada a través del [Twilio communications API platform](https://www.twilio.com/platform "Twilio communications API platform").
+Las aplicaciones son simples de construir, y a su vez escalables.
+Funciona con el sistema [Pay as you go (PAYG)](https://en.wikipedia.org/wiki/Pay_as_you_go "Pay as you go (PAYG)"), el cuál, va a realizar un ***cobro*** cada vez que se realice una **acción**.
 
 
 ### Pasos:
