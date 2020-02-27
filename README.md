@@ -38,11 +38,11 @@ Seguidamente creamos dentro del body un elemento div con el siguiente id=”HTML
 Dentro del div podemos agregar todos los elementos que estarán en el contenido del archivo PDF. Por ejemplo:
 ```html
 <div id="HTMLtoPDF">
-<h2>Los nutrientes</h2>
+    <h2>Los nutrientes</h2>
+    <p>Los alimentos son unas sustancias (sólidas o líquidas) que ingerimos y que nuestro organismo transforma obteniendo unas sustancias químicas, nutrientes, necesarios para la formación, crecimiento y reconstrucción de nuestros tejidos. Alimentos son la leche y sus derivados, las legumbres, las carnes, el pescado, la fruta, las verduras, las hortalizas, los cereales, la mantequilla, etc. y nutrientes, los hidratos de carbono, las proteínas, la fibra, los minerales y los lípidos.
+    </p>  
+</div>
 ```
-
-<p>Los alimentos son unas sustancias (sólidas o líquidas) que ingerimos y que nuestro organismo transforma obteniendo unas sustancias químicas, nutrientes, necesarios para la formación, crecimiento y reconstrucción de nuestros tejidos. Alimentos son la leche y sus derivados, las legumbres, las carnes, el pescado, la fruta, las verduras, las hortalizas, los cereales, la mantequilla, etc. y nutrientes, los hidratos de carbono, las proteínas, la fibra, los minerales y los lípidos.</p>  
- </div>
 
 Fuera del div pero dentro del body creamos un elemento <a> que representará el hipervínculo que al darle click llamará la función que hace la conversión de los documentos. Por ejemplo:
 ```html
@@ -59,8 +59,10 @@ Seguidamente incluimos los scripts necesarios para la conversión. Se colocan de
 El script js/pdfFromHTML.js tiene la función mencionada anteriormente. La variable source hace uso del id que le pusimos al div. Traduciéndose en que todo lo que está dentro del div sea utilizado para crear el contenido del PDF.
 ```cs
 function HTMLtoPDF(){
-var pdf = new jsPDF('p', 'pt', 'letter');
-source = $('#HTMLtoPDF')[0]; ...}
+    var pdf = new jsPDF('p', 'pt', 'letter');
+    source = $('#HTMLtoPDF')[0];
+    ...
+}
 ```
 
 Para más información visite el siguiente link que lo redireccionará al video de youtube que contiene la explicación y demostración gráfica del proceso necesario para implementar la funcionalidad. https://www.youtube.com/watch?v=RzVcKMVioSg.
@@ -113,7 +115,8 @@ Funciona con el sistema pay-as-you-go, el cual va a realizar un cobro cada vez q
             }
 ```
 
-4 -  Descargar desde el Manage Nugets el paquete de Twilio e instalarlo.
+
+4 -  Descargar desde el Manage Nugets el paquete de Twilio e instalarlo. 
 5 -  Se referencia el Api de Twilio desde el Main.
 6 -  Se ejecuta el programa.
 
