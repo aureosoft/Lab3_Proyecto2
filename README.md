@@ -7,11 +7,13 @@
 ## Creación de un PDF descargable desde un archivo HTML
 
 Esta sección del documento explica cómo crear un archivo en `Formato de Documento Portátil (PDF)` desde la estructura de un archivo `Hyper Text Markup Language (HTML)`.
+
 Un archivo PDF es una forma de presentar e intercambiar documentos, los cuales, pueden contener vínculos, botones, formularios, audios, vídeos, entre otros. 
 Por otro lado, un archivo HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas o sitios web. Indica la manera en que está ordenado o estructurado el contenido de la página, para ello se utilizan etiquetas para enmarcar texto.
 El código fuente de la carpeta `CreacionPDF_HTML` del repositorio, contiene los elementos necesarios para la creación y conversión de un HTML a un PDF.
 
 ***Breve explicación del código fuente:***
+
 Primeramente, se debe descargar los 3 scripts que contiene este repositorio en la carpeta `js`. 
 Después se debe crear una carpeta en [Visual Studio Code](https://code.visualstudio.com/#alt-downloads "Visual Studio Code") con el nombre que se desee. 
 Dentro de la carpeta crearemos otra carpeta con el nombre de `js`, en la misma pegaremos los 3 scripts. Creamos un archivo `ejemplo.html` (el nombre que desee con extensión html). Creamos una estructura básica de HTML como la que aparece en el archivo `pdfDesdeHtml.html` del repositorio. Por ejemplo:
@@ -27,7 +29,7 @@ Dentro de la carpeta crearemos otra carpeta con el nombre de `js`, en la misma p
 </html>
 ```
  
-Seguidamente creamos dentro del body un elemento div como el siguiente: id="HTMLtoPDF".
+Seguidamente creamos dentro del `body` un elemento `div` como el siguiente: `id="HTMLtoPDF"`.
 ```html
 <!Doctype html>
 <html>
@@ -41,7 +43,8 @@ Seguidamente creamos dentro del body un elemento div como el siguiente: id="HTML
 </html>
 ```
 
-Dentro del div podemos agregar todos los elementos que estarán en el contenido del archivo PDF. Por ejemplo:
+Dentro del `div` podemos agregar todos los elementos que estarán en el contenido del archivo PDF.
+Por ejemplo:
 ```html
 <div id="HTMLtoPDF">
     <h2>Los nutrientes</h2>
