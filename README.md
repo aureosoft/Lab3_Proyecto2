@@ -132,9 +132,9 @@ Funciona con el sistema [Pay as you go (PAYG)](https://en.wikipedia.org/wiki/Pay
 [5 -  Se referencia el Api de Twilio desde el Main.]
 [6 -  Se ejecuta el programa.]
 
-Para más información visite el siguiente link que lo redireccionará al video de youtube que contiene la explicación 
-y demostración gráfica del proceso necesario para implementar la funcionalidad:
+Explicación y demostración gráfica del proceso necesario para implementar la funcionalidad:
 [![Envío de Sms con Twilio](https://img.youtube.com/vi/wU4GA0GQu2s/hqdefault.jpg)](https://www.youtube.com/embed/wU4GA0GQu2s "Envío de Sms con Twilio")
+
 
 
 Para mas información acerca de otras funcionalidades del API de Twilio visitar:
