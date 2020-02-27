@@ -55,7 +55,7 @@ Para más información visite el siguiente link que lo redireccionará al video 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-SMS desde Twilio.
+# SMS desde Twilio
 
 Enlaces necesarios para la realizacion del ejercicio:
 1- https://www.twilio.com/
@@ -64,7 +64,7 @@ Enlaces necesarios para la realizacion del ejercicio:
 Esta seccion del documento explica cómo enviar un Short Message Service(SMS) usando visual studio y 
 el Aplication Program Interface(API) de twilio.
 
-Que es Twilio?
+# ¿Que es Twilio?
 
 Es una aplicacion que permite a los desarrolladores , añadir voz y mensajes en aplicaciones.
 Virtualizan toda la infraestructura necesaria en una nube, la cual puede ser usada atravez del Twilio communications API platform.
@@ -72,7 +72,7 @@ Las aplicaciones son simples de construir y a su vez, escalables.
 Funciona con el sistema pay-as-you-go, el cual va a realizar un cobro cada vez que se realice una accion.
 
 
-Pasos:
+# Pasos:
 1 - Registrarse en Twilio(https://www.twilio.com/),
 2 - Crear un Console App(.net) en visual studio.
 
