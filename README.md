@@ -2,7 +2,7 @@
 
 * [Conversión de HTML a PDF](#Creación-de-un-PDF-descargable-desde-un-archivo-HTML)
 * [Envío de mensajes SMS con Twilio](#Envío-de-mensajes-SMS-con-Twilio)
-* [Envío de correos con Sendgrid](#installation)
+* [Envío de correos electrónicos con Sendgrid](#Envío-de-correos-electrónicos-con-Sendgrid)
 
 ## Creación de un PDF descargable desde un archivo HTML
 
@@ -142,3 +142,12 @@ Para mas información acerca de otras funcionalidades del API de Twilio visitar:
 [Cómo usar Twilio para voz y SMS](https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms "https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms"),
 
 [¿Qué hace Twilio?](https://www.twilio.com/blog/what-does-twilio-do "https://www.twilio.com/blog/what-does-twilio-do")
+
+
+
+## Envío de correos electrónicos con Sendgrid
+
+
+
+
+
