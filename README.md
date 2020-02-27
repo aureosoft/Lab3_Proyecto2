@@ -1,7 +1,11 @@
-# Lab3_Proyecto2
-Contiene código fuente de conversión de HTML a PDF, enviar correos con Sendgrid y enviar mensajes SMS con twilio.
+## Documentación
 
-	Creación de un pdf descargable desde un archivo HTML
+* [Conversión de HTML a PDF](#Creación de un PDF descargable desde un archivo HTML)
+* [Envío de correos con Sendgrid](#installation)
+* [Envío de mensajes SMS con Twilio](#installation)
+
+## Creación de un PDF descargable desde un archivo HTML
+
 Esta sección del documento explica cómo crear un archivo en formato de documento portátil (PDF) desde la estructura de un archivo hyper text markup language(HTML).
 Un archivo PDF es una forma de presentar e intercambiar documentos. Dichos pueden contener vínculos, botones, formularios, audio, vídeo, entre otros. 
 Por otro lado un archivo HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas o sitios web. Indica la manera en que está ordenado o estructurado el contenido de la página, para ello se utilizan etiquetas para enmarcar texto.
