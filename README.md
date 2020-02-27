@@ -30,7 +30,7 @@ Seguidamente creamos dentro del body un elemento div con el siguiente id=”HTML
     </head>
     <body>
         <div id="HTMLtoPDF">
-</div>
+        </div>
     </body>
 </html>
 ```
