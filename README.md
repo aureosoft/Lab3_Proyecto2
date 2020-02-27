@@ -9,7 +9,7 @@ El código fuente de la carpeta CreacionPDF_HTML del repositorio contiene los el
 
 Breve explicación del código fuente:
 Primeramente se debe descargar los 3 scripts que contiene este repositorio de la carpeta js. Después se debe crear una carpeta en visual studio code con el nombre que se desee. Dentro de la carpeta crearemos otra carpeta con el nombre de js, en la misma pegaremos los 3 scripts. Creamos un archivo ejemplo.html (el nombre que desee con extensión html). Creamos una estructura básica de HTML como la que aparece en el archivo pdfDesdeHtml.html del repositorio. Por ejemplo:
-
+```html
 <!Doctype html>
 <html>
     <head>
@@ -19,8 +19,10 @@ Primeramente se debe descargar los 3 scripts que contiene este repositorio de la
         
     </body>
 </html>
+```
  
 Seguidamente creamos dentro del body un elemento div con el siguiente id=”HTMLtoPDF”.
+```html
 <!Doctype html>
 <html>
     <head>
@@ -31,25 +33,35 @@ Seguidamente creamos dentro del body un elemento div con el siguiente id=”HTML
 </div>
     </body>
 </html>
+```
+
 Dentro del div podemos agregar todos los elementos que estarán en el contenido del archivo PDF. Por ejemplo:
+```html
 <div id="HTMLtoPDF">
 <h2>Los nutrientes</h2>
+```
+
 <p>Los alimentos son unas sustancias (sólidas o líquidas) que ingerimos y que nuestro organismo transforma obteniendo unas sustancias químicas, nutrientes, necesarios para la formación, crecimiento y reconstrucción de nuestros tejidos. Alimentos son la leche y sus derivados, las legumbres, las carnes, el pescado, la fruta, las verduras, las hortalizas, los cereales, la mantequilla, etc. y nutrientes, los hidratos de carbono, las proteínas, la fibra, los minerales y los lípidos.</p>  
  </div>
 
 Fuera del div pero dentro del body creamos un elemento <a> que representará el hipervínculo que al darle click llamará la función que hace la conversión de los documentos. Por ejemplo:
+```html
  <a href="#" onclick="HTMLtoPDF()">Download PDF</a>
+```
 La función “HTMLtoPDF()” se encuentra en uno de los scripts que copiamos a nuestra carpeta js y es la que realiza la conversión.
 Seguidamente incluimos los scripts necesarios para la conversión. Se colocan dentro del body después del elemento a, de la siguiente manera:
- 
+```html
         <script src="js/jspdf.js"></script>
         <script src="js/jquery-2.1.3.js"></script>
         <script src="js/pdfFromHTML.js"></script>
- 
+```
+	
 El script js/pdfFromHTML.js tiene la función mencionada anteriormente. La variable source hace uso del id que le pusimos al div. Traduciéndose en que todo lo que está dentro del div sea utilizado para crear el contenido del PDF.
+```cs
 function HTMLtoPDF(){
 var pdf = new jsPDF('p', 'pt', 'letter');
 source = $('#HTMLtoPDF')[0]; ...}
+```
 
 Para más información visite el siguiente link que lo redireccionará al video de youtube que contiene la explicación y demostración gráfica del proceso necesario para implementar la funcionalidad. https://www.youtube.com/watch?v=RzVcKMVioSg.
 
@@ -76,7 +88,8 @@ Funciona con el sistema pay-as-you-go, el cual va a realizar un cobro cada vez q
 1 - Registrarse en Twilio(https://www.twilio.com/),
 2 - Crear un Console App(.net) en visual studio.
 
-3 - Colocar el siguiente codigo en el main, para probar su funcionalidad:     
+3 - Colocar el siguiente codigo en el main, para probar su funcionalidad: 
+```cs
             // Use your account SID and authentication token instead
             // of the placeholders shown here.
             const string accountSID = "El SID va dentro de las comillas";
@@ -98,6 +111,7 @@ Funciona con el sistema pay-as-you-go, el cual va a realizar un cobro cada vez q
                 // An exception occurred making the REST call
                 Console.WriteLine(ex.Message);
             }
+```
 
 4 -  Descargar desde el Manage Nugets el paquete de Twilio e instalarlo.
 5 -  Se referencia el Api de Twilio desde el Main.
