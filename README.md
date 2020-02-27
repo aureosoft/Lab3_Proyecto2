@@ -102,9 +102,9 @@ Funciona con el sistema [Pay as you go (PAYG)](https://en.wikipedia.org/wiki/Pay
 
 
 ### Pasos:
-* [1 - Registrarse en [Twilio](https://www.twilio.com/ "Twilio") ]
-* [2 - Crear un `Console App(.net)` en `Visual Studio`.]
-* [3 - Colocar el siguiente código en el método `main`, para probar su funcionalidad:] 
+[1 - Registrarse en [Twilio](https://www.twilio.com/ "Twilio") ]
+[2 - Crear un `Console App(.net)` en `Visual Studio`.]
+[3 - Colocar el siguiente código en el método `main`, para probar su funcionalidad:] 
 ```cs
             // Use your account SID and authentication token instead
             // of the placeholders shown here.
@@ -128,9 +128,9 @@ Funciona con el sistema [Pay as you go (PAYG)](https://en.wikipedia.org/wiki/Pay
                 Console.WriteLine(ex.Message);
             }
 ```
-* [4 -  Descargar desde el `Manage Nugets` el paquete de `Twilio` e instalarlo.]
-* [5 -  Se referencia el Api de Twilio desde el Main.]
-* [6 -  Se ejecuta el programa.]
+[4 -  Descargar desde el `Manage Nugets` el paquete de `Twilio` e instalarlo.]
+[5 -  Se referencia el Api de Twilio desde el Main.]
+[6 -  Se ejecuta el programa.]
 
 Para más información visite el siguiente link que lo redireccionará al video de youtube que contiene la explicación 
 y demostración gráfica del proceso necesario para implementar la funcionalidad:
@@ -138,6 +138,7 @@ y demostración gráfica del proceso necesario para implementar la funcionalidad
 
 
 Para mas información acerca de otras funcionalidades del API de Twilio visitar:
-[https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms]"https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms",
 
-[https://www.twilio.com/blog/what-does-twilio-do]"https://www.twilio.com/blog/what-does-twilio-do"
+[Cómo usar Twilio para voz y SMS](https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms "https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms"),
+
+[¿Qué hace Twilio?](https://www.twilio.com/blog/what-does-twilio-do "https://www.twilio.com/blog/what-does-twilio-do")
