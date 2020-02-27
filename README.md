@@ -53,7 +53,7 @@ Por ejemplo:
 </div>
 ```
 
-Fuera del div pero dentro del body creamos un elemento `<a>` que representará el hipervínculo, que al darle click, llamará la función que hace la conversión de los documentos. 
+Fuera del `div` pero dentro del `body` creamos un elemento `<a>` que representará el hipervínculo, que al darle `click`, llamará la función que hace la conversión de los documentos. 
 Por ejemplo:
 ```html
  <a href="javascript:void(0)" onclick="HTMLtoPDF()">Download PDF</a>
@@ -61,12 +61,12 @@ Por ejemplo:
 La función `HTMLtoPDF()` se encuentra en uno de los scripts que copiamos a nuestra carpeta `js`, y es la que realiza la conversión.
 Seguidamente incluimos los scripts necesarios para la conversión. Se colocan dentro del `body` después del elemento `a`, de la siguiente manera:
 ```html
-        <script src="js/jspdf.js"></script>
-        <script src="js/jquery-2.1.3.js"></script>
-        <script src="js/pdfFromHTML.js"></script>
+        <script src="./js/jspdf.js"></script>
+        <script src="./js/jquery-2.1.3.js"></script>
+        <script src="./js/pdfFromHTML.js"></script>
 ```
 	
-El script `js/pdfFromHTML.js` tiene la función mencionada anteriormente. La variable `source` hace uso del id que le pusimos al `div`. Traduciéndose en que todo lo que está dentro del `div` sea utilizado para crear el contenido del PDF.
+El script `js/pdfFromHTML.js` tiene la función mencionada anteriormente. La variable `source` hace uso del `id` que le pusimos al `div`. Traduciéndose en que todo lo que está dentro del `div` sea utilizado para crear el contenido del PDF.
 ```js
 let HTMLtoPDF = () => {
     const pdf = new jsPDF('p', 'pt', 'letter');
@@ -76,15 +76,8 @@ let HTMLtoPDF = () => {
 ```
 
 Explicación y demostración gráfica del proceso necesario para implementar la funcionalidad:
-[![Cómo generar un archivo PDF desde HTML](https://img.youtube.com/vi/RzVcKMVioSg/0.jpg)](https://www.youtube.com/embed/RzVcKMVioSg "Cómo generar un archivo PDF desde HTML")
-
 <div align="center">
-      <a target="_blank" href="https://www.youtube.com/watch?v=RzVcKMVioSg">
-     <img 
-      src="https://img.youtube.com/vi/RzVcKMVioSg/0.jpg" 
-      alt="Cómo generar un archivo PDF desde HTML" 
-      style="width:100%;">
-      </a>
+     [![Cómo generar un archivo PDF desde HTML](https://img.youtube.com/vi/RzVcKMVioSg/0.jpg)](https://www.youtube.com/embed/RzVcKMVioSg "Cómo generar un archivo PDF desde HTML")
 </div>
 
 ## Envío de mensajes SMS con Twilio
