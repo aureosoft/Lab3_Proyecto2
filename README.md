@@ -70,13 +70,7 @@ function HTMLtoPDF(){
 ```
 
 Explicación y demostración gráfica del proceso necesario para implementar la funcionalidad:
-<div align="center">
-     <iframe width="560" height="315"
-src="https://www.youtube.com/embed/RzVcKMVioSg" 
-frameborder="0" 
-allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-</div>
+[![Cómo generar un archivo PDF desde HTML](https://img.youtube.com/vi/RzVcKMVioSg/0.jpg)](https://www.youtube.com/embed/RzVcKMVioSg "Cómo generar un archivo PDF desde HTML")
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
