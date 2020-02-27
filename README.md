@@ -76,7 +76,7 @@ let HTMLtoPDF = () => {
 ```
 
 Explicación y demostración gráfica del proceso necesario para implementar la funcionalidad:
-[![Cómo generar un archivo PDF desde HTML](https://img.youtube.com/vi/RzVcKMVioSg/0.jpg)](https://www.youtube.com/embed/RzVcKMVioSg "Cómo generar un archivo PDF desde HTML")
+[![Cómo generar un archivo PDF desde HTML](https://img.youtube.com/vi/RzVcKMVioSg/hqdefault.jpg)](https://www.youtube.com/embed/RzVcKMVioSg "Cómo generar un archivo PDF desde HTML")
 
 
 ## Envío de mensajes SMS con Twilio
@@ -134,7 +134,7 @@ Funciona con el sistema pay-as-you-go, el cuál va a realizar un cobro cada vez 
 
 Para más información visite el siguiente link que lo redireccionará al video de youtube que contiene la explicación 
 y demostración gráfica del proceso necesario para implementar la funcionalidad:
-[![Envío de Sms con Twilio](https://img.youtube.com/vi/wU4GA0GQu2s/0.jpg)](https://www.youtube.com/embed/wU4GA0GQu2s "Envío de Sms con Twilio")
+[![Envío de Sms con Twilio](https://img.youtube.com/vi/wU4GA0GQu2s/hqdefault.jpg)](https://www.youtube.com/embed/wU4GA0GQu2s "Envío de Sms con Twilio")
 
 
 Para mas información acerca de otras funcionalidades del API de Twilio visitar:
