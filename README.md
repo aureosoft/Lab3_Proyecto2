@@ -1,6 +1,6 @@
 ## Documentación
 
-* [Conversión de HTML a PDF](#Creación de un PDF descargable desde un archivo HTML)
+* [Conversión de HTML a PDF](#Creación-de-un-PDF-descargable-desde-un-archivo-HTML)
 * [Envío de correos con Sendgrid](#installation)
 * [Envío de mensajes SMS con Twilio](#installation)
 
