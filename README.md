@@ -82,10 +82,13 @@ Explicación y demostración gráfica del proceso necesario para implementar la 
 ## Envío de mensajes SMS con Twilio
 
 Enlaces necesarios para la realización del ejercicio:
-1- https://www.twilio.com/
-2- https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms
 
-Esta sección del documento explica cómo enviar un `Short Message Service (SMS)` usando Microsoft Visual Studio y 
+[1- Twilio - web oficial](https://www.twilio.com/)
+
+[2- SMS en Twilio](https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms)
+
+
+Esta sección del documento explica cómo enviar un `Short Message Service (SMS)` usando `Microsoft Visual Studio` y 
 el `Aplication Program Interface (API)` de Twilio.
 
 ### ¿Qué es Twilio?
@@ -97,7 +100,7 @@ Funciona con el sistema pay-as-you-go, el cuál va a realizar un cobro cada vez 
 
 
 ### Pasos:
-1 - Registrarse en Twilio(https://www.twilio.com/),
+1 - Registrarse en [Twilio](https://www.twilio.com/),
 2 - Crear un `Console App(.net)` en visual studio.
 
 3 - Colocar el siguiente código en el main, para probar su funcionalidad: 
@@ -125,13 +128,16 @@ Funciona con el sistema pay-as-you-go, el cuál va a realizar un cobro cada vez 
             }
 ```
 
-4 -  Descargar desde el `Manage Nugets` el paquete de Twilio e instalarlo. 
+4 -  Descargar desde el `Manage Nugets` el paquete de `Twilio` e instalarlo. 
 5 -  Se referencia el Api de Twilio desde el Main.
 6 -  Se ejecuta el programa.
 
 Para más información visite el siguiente link que lo redireccionará al video de youtube que contiene la explicación 
 y demostración gráfica del proceso necesario para implementar la funcionalidad:
+[![Envío de Sms con Twilio](https://img.youtube.com/vi/wU4GA0GQu2s/0.jpg)](https://www.youtube.com/embed/wU4GA0GQu2s "Envío de Sms con Twilio")
+
 
 Para mas información acerca de otras funcionalidades del API de Twilio visitar:
-https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms,
-https://www.twilio.com/blog/what-does-twilio-do
+[https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms]"https://docs.microsoft.com/en-us/azure/twilio-dotnet-how-to-use-for-voice-sms",
+
+[https://www.twilio.com/blog/what-does-twilio-do]"https://www.twilio.com/blog/what-does-twilio-do"
