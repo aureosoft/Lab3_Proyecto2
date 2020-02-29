@@ -15,8 +15,15 @@ El código fuente de la carpeta `CreacionPDF_HTML` del repositorio, contiene los
 ***Breve explicación del código fuente:***
 
 Primeramente, se debe descargar los 3 scripts que contiene este repositorio en la carpeta `js`. 
+
+* [Descargar jQuery](https://unpkg.com/jquery@latest/dist/jquery.min.js)
+* [Descargar jspdf](https://unpkg.com/jspdf@latest/dist/jspdf.min.js)
+
 Después se debe crear una carpeta en [Visual Studio Code](https://code.visualstudio.com/#alt-downloads "Visual Studio Code") con el nombre que se desee. 
-Dentro de la carpeta crearemos otra carpeta con el nombre de `js`, en la misma pegaremos los 3 scripts. Creamos un archivo `ejemplo.html` (el nombre que desee con extensión html). Creamos una estructura básica de HTML como la que aparece en el archivo `pdfDesdeHtml.html` del repositorio. Por ejemplo:
+Dentro de la carpeta crearemos otra carpeta con el nombre de `js`, en la misma pegaremos los 3 scripts.
+
+Creamos un archivo `ejemplo.html` (el nombre que desee con extensión html). Creamos una estructura básica de HTML como la que aparece en el archivo `pdfDesdeHtml.html` del repositorio.
+Por ejemplo:
 ```html
 <!Doctype html>
 <html>
@@ -29,8 +36,9 @@ Dentro de la carpeta crearemos otra carpeta con el nombre de `js`, en la misma p
     </body>
 </html>
 ```
- 
+
 Seguidamente creamos dentro del `body` un elemento `div` como el siguiente: `id="HTMLtoPDF"`.
+
 ```html
 <!Doctype html>
 <html>
@@ -58,13 +66,13 @@ Por ejemplo:
 Fuera del `div` pero dentro del `body` creamos un elemento `<a>` que representará el hipervínculo, que al darle `click`, llamará la función que hace la conversión de los documentos. 
 Por ejemplo:
 ```html
- <a href="javascript:void(0)" onclick="HTMLtoPDF()">Download PDF</a>
+ <a href="javascript:void(0)" onclick="HTMLtoPDF()">Descargar PDF</a>
 ```
 La función `HTMLtoPDF()` se encuentra en uno de los scripts que copiamos a nuestra carpeta `js`, y es la que realiza la conversión.
 Seguidamente incluimos los scripts necesarios para la conversión. Se colocan dentro del `body` después del elemento `a`, de la siguiente manera:
 ```html
-        <script src="./js/jspdf.js"></script>
         <script src="./js/jquery-2.1.3.js"></script>
+        <script src="./js/jspdf.js"></script>
         <script src="./js/pdfFromHTML.js"></script>
 ```
 	
@@ -146,6 +154,16 @@ Para mas información acerca de otras funcionalidades del API de Twilio visitar:
 
 
 ## Envío de correos electrónicos con Sendgrid
+
+[![Envío de correos electrónicos con Sendgrid](https://img.youtube.com/vi/uttXidmt9mI/hqdefault.jpg)](https://www.youtube.com/embed/uttXidmt9mI "Envío de correos electrónicos con Sendgrid")
+
+
+[1. Crear cuenta en [Sendgrid](https://signup.sendgrid.com "Crear cuenta en Sendgrid")]
+
+[2. Iniciar sesión en [Sendgrid](https://app.sendgrid.com/login)]
+
+[3. Crear API key y copiar el key generado]
+
 
 
 
