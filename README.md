@@ -175,6 +175,7 @@ Resumen de los pasos necesarios para enviar correos electrónicos utilizando Sen
 [![Código c# para envíar correo con Sendgrid](https://img.youtube.com/vi/uttXidmt9mI/hqdefault.jpg)](https://youtu.be/uttXidmt9mI?t=71 "Código c# para envíar correo con Sendgrid")
 
 
+/////////////////////////////////
 
 Explicación completa, paso a paso:
 
