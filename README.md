@@ -155,17 +155,18 @@ Para mas información acerca de otras funcionalidades del API de Twilio visitar:
 
 ## Envío de correos electrónicos con Sendgrid
 
+Resumen de los pasos necesarios para enviar correos electrónicos utilizando Sendgrid:
+
+1. Crear cuenta en [Sendgrid](https://signup.sendgrid.com "Crear cuenta en Sendgrid")
+
+2. Iniciar sesión en [Sendgrid](https://app.sendgrid.com/login)
+
+3. Crear API key y copiar el key generado.
+
+
+Explicación paso a paso:
+
 [![Envío de correos electrónicos con Sendgrid](https://img.youtube.com/vi/uttXidmt9mI/hqdefault.jpg)](https://www.youtube.com/embed/uttXidmt9mI "Envío de correos electrónicos con Sendgrid")
-
-
-[1. Crear cuenta en [Sendgrid](https://signup.sendgrid.com "Crear cuenta en Sendgrid")]
-
-[2. Iniciar sesión en [Sendgrid](https://app.sendgrid.com/login)]
-
-[3. Crear API key y copiar el key generado]
-
-
-
 
 
 
