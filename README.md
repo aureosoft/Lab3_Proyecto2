@@ -157,16 +157,30 @@ Para mas información acerca de otras funcionalidades del API de Twilio visitar:
 
 Resumen de los pasos necesarios para enviar correos electrónicos utilizando Sendgrid:
 
-1. Crear cuenta en [Sendgrid](https://signup.sendgrid.com "Crear cuenta en Sendgrid")
+1. Crear cuenta en [Sendgrid](https://signup.sendgrid.com "signup")
 
-2. Iniciar sesión en [Sendgrid](https://app.sendgrid.com/login)
+2. Iniciar sesión en [Sendgrid](https://app.sendgrid.com/login "login")
 
 3. Crear API key y copiar el key generado.
+    * Escribir un `nombre` para el Api Key.
+	* Seleccionar que sea de tipo: `Restricted Access`
+	* En el submenú Mail Send activar la casilla: `Mail Send`.
+	* Presionar el botón: `Create & View`.
+
+4. Crear en `Visual Studio` un proyecto de tipo `Console App`.
+
+5. Agregar el siguiente `Nuget`: `Sendgrid`.
+
+6. Seguir los pasos del siguiente video para continuar: 
+[![Código c# para envíar correo con Sendgrid](https://img.youtube.com/vi/uttXidmt9mI/hqdefault.jpg)](https://youtu.be/uttXidmt9mI?t=71 "Código c# para envíar correo con Sendgrid")
 
 
-Explicación paso a paso:
+
+Explicación completa, paso a paso:
 
 [![Envío de correos electrónicos con Sendgrid](https://img.youtube.com/vi/uttXidmt9mI/hqdefault.jpg)](https://www.youtube.com/embed/uttXidmt9mI "Envío de correos electrónicos con Sendgrid")
+
+
 
 
 
