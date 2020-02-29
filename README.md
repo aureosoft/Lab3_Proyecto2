@@ -171,8 +171,13 @@ Resumen de los pasos necesarios para enviar correos electrónicos utilizando Sen
 
 5. Agregar el siguiente `Nuget`: `Sendgrid`.
 
-6. Seguir los pasos del siguiente video para continuar: 
-[![Código c# para envíar correo con Sendgrid](https://img.youtube.com/vi/uttXidmt9mI/hqdefault.jpg)](https://youtu.be/uttXidmt9mI?t=71 "Código c# para envíar correo con Sendgrid")
+6. 
+|   |   |
+| :---: | :---: |
+| Seguir los pasos del siguiente video para continuar:  | [![Código c# para envíar correo con Sendgrid](https://img.youtube.com/vi/uttXidmt9mI/hqdefault.jpg)](https://youtu.be/uttXidmt9mI?t=71 "Código c# para envíar correo con Sendgrid")  |
+
+
+
 
 
 /////////////////////////////////
