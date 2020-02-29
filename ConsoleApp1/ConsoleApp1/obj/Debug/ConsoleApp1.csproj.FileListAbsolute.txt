@@ -1,0 +1,13 @@
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\SendGrid.dll
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\SendGrid.pdb
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\SendGrid.xml
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Evese\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
